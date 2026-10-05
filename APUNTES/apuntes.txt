@@ -1,0 +1,4 @@
+- LDAP
+
+- Kerberos: 
+Servicio de autentificacion, permite hacer la autentificacion.
