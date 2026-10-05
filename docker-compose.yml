@@ -1,3 +1,9 @@
+services:
+  dir-server:
+    build:
+      context: Dockerfile-dirserver
+    container_name : dir-server
+
 networks:
   lan_net:
     driver: bridge
