@@ -7,3 +7,4 @@ services:
 networks:
   lan_net:
     driver: bridge
+    
