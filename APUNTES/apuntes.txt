@@ -2,3 +2,5 @@
 
 - Kerberos: 
 Servicio de autentificacion, permite hacer la autentificacion.
+
+-PAM: Gestión de acceso privilegiado. 
