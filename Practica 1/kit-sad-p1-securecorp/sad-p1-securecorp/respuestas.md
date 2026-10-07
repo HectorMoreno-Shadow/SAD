@@ -1,20 +1,23 @@
 # Práctica 1 de SAD · SecureCorp — Respuestas
 
-**Nombre y apellidos:**
-**Usuario:**
+**Nombre y apellidos: Hector Moreno Tejero**
+**Usuario: hmortej**
 
 Responde con tus palabras, en 1-3 líneas. En la defensa te preguntaré lo mismo en voz alta.
 
 **Contraseñas que has usado** (solo porque es un laboratorio; en una empresa, jamás en un fichero):
 
-- Tu usuario:
-- mtorres:
+- Tu usuario: Hector2026
+- mtorres: Marta2026
 
 ---
 
 **1. (A1)** ¿Quién es el `issuer` de tu `ca.crt`? ¿Hasta qué fecha es válido? ¿Por qué el `subject`
 y el `issuer` de la CA son iguales y los de `ldap.crt` no?
 
+- Yo mismo, Hector Moreno Tejero
+- Tiene una duración de 3650 días
+- 
 
 **2. (A3)** Pega el comando y el resultado de tus dos búsquedas:
 
