@@ -1,11 +1,11 @@
 # Práctica 1 de SAD · SecureCorp — Respuestas
 
-**Nombre y apellidos:**
-**Usuario:**
+**Nombre y apellidos: Héctor Moreno Tejero**
+**Usuario: hmortej**
 
 Responde con tus palabras, en 1-3 líneas. En la defensa te preguntaré lo mismo en voz alta.
 
-**Contraseñas que has usado** (solo porque es un laboratorio; en una empresa, jamás en un fichero):
+**Contraseñas que has usado** (solo porque es un laboratorio; en una empresa, jamás en un fichero): Hector2026 Lucia2026 Marta2026 a1234
 
 - Tu usuario: Hector2026
 - mtorres: Marta2026
@@ -47,12 +47,17 @@ mail: hmortej@securecorp.local
 
 **3. (A4)** ¿Por qué la clave `ldap.key` tiene que ser de `openldap` y tener permisos 600?
 
+- Porque slapd funciona con el usuario y grupo openldap
+
 
 **4. (A4)** ¿Qué valor has puesto en `SLAPD_SERVICES` y por qué?
+
+- He puesto ldaps:/// para que sea crifrado
 
 
 **5. (A4)** Antes de añadir `TLS_CACERT` en el cliente, `ldaps://` no funcionaba. ¿Por qué?
 
+- Porque el cliente no confiaba en el certificado, por eso en el punto 4 hacemos que confie.
 
 **6. (B3)** Pega la salida de `klist` con tus dos tickets. ¿Para qué sirve cada uno? ¿Ha viajado tu
 contraseña por la red?
@@ -68,11 +73,21 @@ Valid starting     Expires            Service principal
 	renew until 10/15/26 15:19:46
 
 ```
+- Uno es el que consigue la pulsera (TGT) y la enseña, y el otro es el TGS para entrar al servicio.
+
+- No, mi contrase no viaja por la red
 
 **7. (C)** En el `docker-compose.yml`, ¿qué diferencia hay entre `build:` e `image:`? ¿Qué
 significa la línea `- "8081:80"` del servicio `phpldapadmin`?
 
+- Build construye la imagen, image descarga una imagen ya construida
+
+- El puerto 8081 de mi maquina local al puerto 80 del servicio phpldapadmin
 
 **8. (C)** ¿Por qué en la máquina `web` no has tenido que escribir a mano `TLS_CACERT`, y en el
 cliente sí? ¿Qué pasaría con esa línea del cliente si hicieras `./lab.sh reset`?
+
+- Porque web ya sabe la ruta del certificado
+
+- Pues se elimina todas las configuraciones y se restablece todo.
 
