@@ -1,6 +1,6 @@
 # Parte C · La máquina web.securecorp.local (el servidor web de SecureCorp)
 #
-# ✍️ Completa los ____ (lo explica el enunciado, Parte C).
+# ✍️ Completa los (lo explica el enunciado, Parte C).
 #    Pista: el Dockerfile del laboratorio (el de la carpeta de arriba) hace casi lo mismo.
 
 # 1 · Imagen de partida: la misma Debian que el resto del laboratorio

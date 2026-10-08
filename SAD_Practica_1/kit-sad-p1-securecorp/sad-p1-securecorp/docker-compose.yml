@@ -66,7 +66,7 @@ services:
   # ✍️ Parte C: aquí va el servicio web
 
   web:
-    build: web/Dockerfile                         # la carpeta donde está su Dockerfile
+    build: ./web                         # la carpeta donde está su Dockerfile
     container_name: sad-p1-web
     hostname: web
     volumes:
