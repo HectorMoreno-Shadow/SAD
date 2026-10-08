@@ -89,5 +89,5 @@ cliente sí? ¿Qué pasaría con esa línea del cliente si hicieras `./lab.sh re
 
 - Porque web ya sabe la ruta del certificado
 
-- Pues se elimina todas las configuraciones y se restablece todo.
+- Pues se elimina todas las configuraciones y se restablece todoo.
 
