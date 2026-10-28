@@ -17,7 +17,7 @@ dn: cn=sistemas,ou=groups,dc=securecorp,dc=local
 objectClass: groupOfNames
 cn: sistemas
 member: uid=hmortej,ou=people,dc=securecorp,dc=local
-
+member: uid=jsoto,ou=people,dc=securecorp,dc=local
 #Creación del grupo rrhh
 
 dn: cn=rrhh,ou=groups,dc=securecorp,dc=local

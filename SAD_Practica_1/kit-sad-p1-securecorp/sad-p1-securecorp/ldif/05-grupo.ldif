@@ -1,0 +1,4 @@
+dn: cn=sistemas,ou=groups,dc=securecorp,dc=local
+changetype: modify
+add: member
+member: uid=jsoto,ou=people,dc=securecorp,dc=local

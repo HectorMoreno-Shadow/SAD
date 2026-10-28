@@ -1,0 +1,10 @@
+dn: uid=jsoto,ou=people,dc=securecorp,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: jsoto
+cn: Javier
+sn: Soto
+mail: jsoto@securecorp.local
+uidNumber: 10005
+gidNumber: 10001
+homeDirectory: /home/jsoto
