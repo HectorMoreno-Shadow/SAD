@@ -56,7 +56,7 @@ En dos líneas: ¿qué se ve por la calle y qué NO se ve?
 Del **mismo ataque** (la inyección a la web): ¿qué ve el vigilante de la red (el IDS) y qué ve el portero de la web? ¿Por
 qué hacen falta los dos?
 
->
+> Suricata mira la red; el WAF lee la petición web. El vigilante ve lo que pasa antes del DNAT , ve los paquetes que se dirigen a 198.51.100.254. El WAF lee la petición HTTP y evalua sumando puntos para bloquear o permitir el paso.
 
 ## Bloque D · La nota del servidor (D0 y D4)
 
