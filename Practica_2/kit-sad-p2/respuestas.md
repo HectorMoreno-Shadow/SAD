@@ -62,8 +62,8 @@ qué hacen falta los dos?
 
 Nota del análisis **antes** de bastionar (D0):
 
->
+> 63
 
 Nota **después** (D4). ¿Por qué no llega a 100? ¿Significa que el servidor sigue inseguro? Comenta un aviso que siga saliendo.
 
->
+> Sí, sigue siendo inseguro, pero no tan inseguro como antes. "SSH-7408 · Consider hardening SSH configuration · Port (set 22 to )"
